@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+.far {
+    font-size: large;
+    transform: scale(1);
+    transition: transform 1s;
+    margin: 2px;
+}
+.far:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.shapesPerSec,
+.gravityValue {
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+p {
+    margin: 0 10px;
+}
+.numshapes {
+    margin: 10px 0 10px 0;
+}
